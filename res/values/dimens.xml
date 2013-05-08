@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Configuración de los botones de la pantalla principal -->
+    <dimen name="radius_button">10dp</dimen>
+    <dimen name="width_button">180dp</dimen>
+    <dimen name="width_border">3dp</dimen>
+    
+    <!-- Configuración de los botones de la pantalla registrar -->
+    <dimen name="padding_reg">3dp</dimen>
+    <dimen name="size_stroke_reg">4dp</dimen>
+    <dimen name="margin_reg">10dp</dimen>
+    
+    <!-- Configuración de dimensiones de la pantalla apuntar -->
+    <dimen name="separación_boton_apuntar">25dp</dimen>
+    <dimen name="ancho_cuadro_texto">200dp</dimen>
+    <dimen name="ancho_boton_apuntar">100dp</dimen>
+    <dimen name="padding_cuadro_texto">5dp</dimen>
+    
+    <!-- Configuración de la pantalla wheis -->
+    <dimen name="ubicacion_texto">20dp</dimen>
+    <dimen name="separación_ub_textos">10dp</dimen>
+
+</resources>

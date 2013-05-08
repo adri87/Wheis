@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WheIsMyCar</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- MainActivity -->
+    <string name="button_wheis">WheIs</string>
+    <string name="button_reg">Registrar</string>
+    <string name="button_history">Historial</string>
+    
+    <!-- WheIs -->
+    <string name="etiqueta_texto">La ubicación de tu coche es:</string>
+    
+    <!-- Registrar -->
+    <string name="button_apuntar">Escribir</string>    
+    <string name="button_mapa">Posición GPS</string>
+    <string name="button_foto">Hacer foto</string>
+    <string name="des_im_apuntar">Imagen para el boton apuntar</string>
+    <string name="des_im_mapa">Imagen para el boton mapa</string>
+    <string name="des_im_foto">Imagen para el boton foto</string>
+    
+    <!-- Apuntar -->
+    <string name="content_description_cuadrotext">Aqui introduciremos la dirección o alguna nota</string>
+    <string name="cuadrotext">Introduce el lugar en el que has aparcado ..</string>
+    <string name="buttonApuntar">Guardar</string>
+    
+    <!-- Historial -->
+        
+</resources>

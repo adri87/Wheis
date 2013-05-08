@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center" 
+    android:orientation="vertical">
+    
+    <TableLayout
+        android:background="@drawable/background"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+		
+		<TableRow
+			android:layout_weight="1"
+			android:gravity="center">
+				
+			<ImageButton
+            	android:id="@+id/butImgMap"
+            	style="@style/st_button_reg"
+        		android:contentDescription="@string/des_im_mapa"
+        		android:scaleX="0.5"
+        		android:src="@drawable/map" />
+
+			<TextView
+        		android:id="@+id/textbutIRMapa"
+        		android:text="@string/button_mapa"
+        		android:layout_margin="@dimen/margin_reg"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+		    
+ 		</TableRow>
+ 		
+ 		<TableRow
+			android:layout_weight="1"
+			android:gravity="center">
+ 		        
+ 		    <ImageButton
+ 		        android:id="@+id/butImgReg"
+ 		        style="@style/st_button_reg"
+ 		        android:contentDescription="@string/des_im_apuntar"
+ 		        android:scaleX="0.5"
+ 		        android:onClick="apuntar"
+ 				android:src="@drawable/apuntar" />
+				
+			<TextView
+        		android:id="@+id/textbutIRApuntar"
+        		android:text="@string/button_apuntar"
+        		android:layout_margin="@dimen/margin_reg"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+		     	    
+ 		</TableRow>
+ 		
+		<TableRow
+			android:layout_weight="1"
+			android:gravity="center">
+				
+    		<ImageButton
+    		    android:id="@+id/butImgFot"
+    		    style="@style/st_button_reg"
+    		    android:adjustViewBounds="true"
+    		    android:contentDescription="@string/des_im_foto"
+    		    android:scaleX="0.5"
+    		    android:src="@drawable/foto" />
+
+    		<TextView
+       			android:id="@+id/textbutIRFoto"
+        		android:text="@string/button_foto"
+        		android:layout_margin="@dimen/margin_reg"
+        		android:textAppearance="?android:attr/textAppearanceLarge" />
+					    	     	    
+ 		</TableRow>
+	
+	</TableLayout>
+
+</LinearLayout>

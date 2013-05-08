@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/apuntarUbicacion"
+        android:layout_width="@dimen/ancho_cuadro_texto"
+        android:layout_height="wrap_content"
+        android:alpha="0.9"
+        android:background="@color/white"
+        android:contentDescription="@string/content_description_cuadrotext"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:minLines="10"
+        android:padding="@dimen/padding_cuadro_texto"
+        android:shadowColor="@color/black"
+        android:text="@string/cuadrotext"
+        android:textColor="@color/border_blue"
+        android:textStyle="italic" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonApuntar"
+        style="@style/st_button"
+        android:layout_width="@dimen/ancho_boton_apuntar"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/separación_boton_apuntar"
+        android:onClick="guardarTexto"
+        android:text="@string/buttonApuntar" />
+
+</LinearLayout>
